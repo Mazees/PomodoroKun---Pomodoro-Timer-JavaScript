@@ -1,6 +1,6 @@
 # PomodoroKun - Pomodoro Timer JavaScript
 
-PomodoroKun is a simple, easy-to-use Pomodoro timer web app built with vanilla JavaScript. It helps you boost productivity and stay focused using the Pomodoro Technique.
+PomodoroKun is a simple, easy-to-use Pomodoro timer web app built with v**Vanilla JavaScript** and **Tailwind CSS**. It helps you boost productivity and stay focused using the Pomodoro Technique.
 
 ## 🌟 Features
 
