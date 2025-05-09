@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POMODOROKUN</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body class="bg-[#422f56] flex justify-center items-center">
+    <section class="w-full m-3 sm:m-0 sm:w-[300px] h-[300px] bg-[#c084fc] rounded-2xl flex flex-col p-5">
+        <h1 class="text-white font-medium w-full text-center">POMODOROKUN</h1>
+        <div class="h-full w-full flex flex-row items-center py-2 gap-3">
+            <h1 id="timerView" class="h-[100px] w-[100px] bg-white flex items-center justify-center rounded-full text-center shrink-0">00:00</h1>
+            <div class="flex flex-col flex-1 w-full h-full p-1 items-center justify-center">
+                <h1  class="text-[12px] text-white font-semibold mb-1">Input Long Break Time</h1>
+                <input id="lbreak" value="15" type="number" name="" id="" placeholder="Insert Long Break Time (min)" class="placeholder:text-[12px] text-[12px] placeholder:text-black bg-white outline-0 focus:outline-0 w-[100%] px-1 rounded-2xl p-1 pl-2 no-spinner">
+                <h1 id="session" class="text-[12px] rounded-2xl bg-white w-full p-2 text-center mt-2">SESSION #1</h1>
+                <button id="next" class="invisible btn-primary w-full text-[12px] mt-2">NEXT</button>
+            </div>
+        </div>
+        <button id="startBTN" class="btn-primary">START</button>
+        <button id="pauseBTN" class="invisible mt-2 btn-primary">PAUSE</button>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
